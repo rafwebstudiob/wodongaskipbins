@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" width="560" height="200" role="img" aria-labelledby="t">
+<title id="t">4 cubic metre skip bin size guide, shown next to an adult for scale</title>
+<rect width="560" height="200" fill="#f4f7f5"/>
+<line x1="20" y1="180" x2="540" y2="180" stroke="#b8c4bd" stroke-width="3"/>
+<g fill="#555e66" aria-hidden="true">
+  <circle cx="85" cy="50.5" r="10.5"/>
+  <rect x="71" y="64.0" width="28" height="52.2" rx="6"/>
+  <rect x="62" y="66.0" width="8" height="49.6" rx="4"/>
+  <rect x="100" y="66.0" width="8" height="49.6" rx="4"/>
+  <rect x="72" y="112.2" width="12" height="67.8" rx="4"/>
+  <rect x="86" y="112.2" width="12" height="67.8" rx="4"/>
+</g>
+<g>
+  <path d="M150 92.0 L358.0 92.0 L318.4 172 L189.6 172 Z" fill="#f2c14e" stroke="#0f5132" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="146" y="84.0" width="216.0" height="9" rx="3" fill="#0f5132"/>
+  <line x1="189.6" y1="176" x2="318.4" y2="176" stroke="#0f5132" stroke-width="6"/>
+  <text x="254.0" y="148.0" text-anchor="middle" font-family="system-ui,Arial,sans-serif" font-weight="800" font-size="34" fill="#0f5132">4 m³</text>
+</g>
+<text x="540" y="196" text-anchor="end" font-family="system-ui,Arial,sans-serif" font-size="13" fill="#555e66">Illustration only · sizes vary by operator</text>
+</svg>

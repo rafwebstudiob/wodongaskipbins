@@ -1,5 +1,6 @@
 (function(){
   var f=document.getElementById('quote-form'); if(!f) return;
+  if(location.protocol==='http:'){var nx=f.querySelector('input[name="_next"]'); if(nx) nx.value=location.origin+'/thanks.html';}
   var s2=document.getElementById('step-2'), next=document.getElementById('to-step-2'), back=document.getElementById('back-1');
   var sub=document.getElementById('suburb'), other=f.querySelector('.other-wrap'), otherIn=document.getElementById('suburb_other');
   var waste=document.getElementById('waste'), err=document.getElementById('step1-error');

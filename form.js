@@ -25,6 +25,8 @@
     if(!step1ok()){ e.preventDefault(); back.click(); return; }
     var n=document.getElementById('name'), p=document.getElementById('phone'), bad=null;
     [n,p].forEach(function(el){ var b=!el.value.trim(); el.setAttribute('aria-invalid',b?'true':'false'); if(b&&!bad) bad=el; });
-    if(bad){ e.preventDefault(); bad.focus(); }
+    if(bad){ e.preventDefault(); bad.focus(); return; }
+    /*seo6-track*/try{ sessionStorage.setItem('rws_lead_token', String(Date.now())); }catch(_){}
+    if(window.gtag) gtag('event','quote_submit',{form_name:'skip_bin_quote',page_path:location.pathname,transport_type:'beacon'});
   });
 })();
